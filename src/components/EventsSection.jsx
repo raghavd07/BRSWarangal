@@ -45,7 +45,7 @@ export default function EventsSection() {
               <span className="alert-pretitle">CONSTITUENCY ELECTION WATCH</span>
               <h3 className="alert-heading">Upcoming Greater Warangal Municipal (GWMC) Ward Elections</h3>
               <p className="alert-desc">
-                Wards across Warangal East Assembly Constituency are preparing for municipal body elections. Check your voter enrollment status, verify polling stations, and participate in local democracy.
+                Wards across Warangal West Assembly Constituency (వరంగల్ పశ్చిమ నియోజకవర్గం) are preparing for municipal body elections. Check your voter enrollment status, verify polling stations, and participate in local democracy.
               </p>
             </div>
           </div>
@@ -221,7 +221,7 @@ export default function EventsSection() {
                     <div className="voter-guidelines-box">
                       <div className="voter-guide-title">
                         <Vote size={16} />
-                        <span>Voter Awareness Checklist – Warangal East</span>
+                        <span>Voter Awareness Checklist – Warangal West</span>
                       </div>
                       <ul>
                         <li>Verify your name in the electoral roll ahead of polling day.</li>

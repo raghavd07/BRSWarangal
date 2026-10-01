@@ -303,41 +303,128 @@
   object-position: center;
 }
 
-/* Mobile Adjustments */
+/* Mobile Adjustments for All Phone Sizes (320px to 640px) */
 @media (max-width: 640px) {
+  .header-identity-wrapper {
+    padding: 8px 0;
+  }
+  
+  .header-identity-container {
+    gap: 10px;
+  }
+
   .header-brand-block {
     justify-content: center;
+    width: 100%;
   }
+
+  .brand-identity-link {
+    gap: 8px;
+    max-width: 100%;
+  }
+
   .brand-circular-logo {
-    height: 50px;
-    width: 50px;
-  }
-  .brand-banner-img {
     height: 46px;
-    max-width: 220px;
+    width: 46px;
   }
+
+  .brand-banner-img {
+    height: auto;
+    max-height: 40px;
+    max-width: min(230px, calc(100vw - 76px));
+    object-fit: contain;
+  }
+
   .header-portraits-group {
     justify-content: center;
+    align-items: center;
     gap: 8px;
+    width: 100%;
+    flex-wrap: wrap;
   }
-  .leader-portrait-card,
-  .heritage-portrait-card {
-    width: 72px;
+
+  .header-leaders-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
   }
-  .leader-portrait-frame,
-  .heritage-portrait-frame {
-    width: 46px;
-    height: 46px;
+
+  .leader-portrait-card {
+    width: 66px;
   }
-  .leader-name,
-  .heritage-name {
-    font-size: 0.7rem;
+
+  .leader-portrait-frame {
+    width: 42px;
+    height: 42px;
+    margin-bottom: 2px;
   }
-  .leader-title,
-  .heritage-title {
-    font-size: 0.6rem;
+
+  .leader-name {
+    font-size: 0.65rem;
+    max-width: 66px;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
+
+  .leader-title {
+    font-size: 0.55rem;
+    max-width: 66px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
   .section-separator {
     display: none;
+  }
+
+  .portrait-separator {
+    height: 30px;
+  }
+
+  .header-heritage-block {
+    padding: 4px 6px;
+    gap: 6px;
+  }
+
+  .heritage-portrait-frame {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 360px) {
+  .brand-circular-logo {
+    height: 40px;
+    width: 40px;
+  }
+
+  .brand-banner-img {
+    max-height: 36px;
+    max-width: calc(100vw - 68px);
+  }
+
+  .leader-portrait-card {
+    width: 58px;
+  }
+
+  .leader-portrait-frame {
+    width: 38px;
+    height: 38px;
+  }
+
+  .leader-name {
+    font-size: 0.6rem;
+    max-width: 58px;
+  }
+
+  .leader-title {
+    font-size: 0.52rem;
+    max-width: 58px;
+  }
+
+  .heritage-portrait-frame {
+    width: 36px;
+    height: 36px;
   }
 }

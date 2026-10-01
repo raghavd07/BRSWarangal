@@ -13,7 +13,7 @@ export default function RegistrationModal({ isOpen, onClose }) {
   const [formData, setFormData] = useState({
     fullName: '',
     mobileNumber: '',
-    wardNumber: 'Ward 18 - Girmajipet',
+    wardNumber: 'Ward 50 - Public Garden & Subedari',
     voterId: '',
     colony: '',
     wingPreference: 'General Cadre'
@@ -23,18 +23,18 @@ export default function RegistrationModal({ isOpen, onClose }) {
   if (!isOpen) return null;
 
   const wardOptions = [
-    'Ward 02 - Fort Warangal',
-    'Ward 05 - Ursu Gutta',
-    'Ward 09 - Rangampet',
-    'Ward 12 - Mattewada',
-    'Ward 15 - Mandi Bazar',
-    'Ward 18 - Girmajipet',
-    'Ward 21 - Deshaipet',
-    'Ward 24 - Enumamula',
-    'Ward 28 - Under Bridge Road',
-    'Ward 32 - Pochamma Maidan',
-    'Ward 36 - Kareemabad',
-    'Ward 40 - Shiva Nagar'
+    'Ward 50 - Public Garden & Subedari',
+    'Ward 52 - Kakatiya University Campus',
+    'Ward 54 - Nakkalagutta & Hanamkonda Chowrasta',
+    'Ward 56 - Balasamudram',
+    'Ward 58 - Lashkar Bazar',
+    'Ward 60 - Waddepally',
+    'Ward 62 - Bheemaram',
+    'Ward 64 - Kazipet Town',
+    'Ward 66 - NIT Campus Road',
+    'Ward 48 - Kishanpura',
+    'Ward 44 - Kumarpalli',
+    'Ward 46 - Excise Colony'
   ];
 
   const wingOptions = [
@@ -89,7 +89,7 @@ export default function RegistrationModal({ isOpen, onClose }) {
           <div className="reg-header-brand">
             <img src={brsLogoImg} alt="BRS Logo" className="reg-brand-logo" />
             <div>
-              <span className="reg-telugu-tag">భారత్ రాష్ట్ర సమితి - వరంగల్ తూర్పు</span>
+              <span className="reg-telugu-tag">భారత్ రాష్ట్ర సమితి - వరంగల్ పశ్చిమ నియోజకవర్గం</span>
               <h2 className="reg-title">BRS Party Membership Registration</h2>
             </div>
           </div>
@@ -127,7 +127,7 @@ export default function RegistrationModal({ isOpen, onClose }) {
             </div>
 
             <p className="reg-subtitle">
-              Join hands to strengthen grassroots civic development, citizen welfare initiatives, and public representation in Warangal East.
+              Join hands to strengthen grassroots civic development, citizen welfare initiatives, and public representation in Warangal West (వరంగల్ పశ్చిమ నియోజకవర్గం).
             </p>
 
             <div className="form-fields-grid">
@@ -173,10 +173,10 @@ export default function RegistrationModal({ isOpen, onClose }) {
                 </div>
               </div>
 
-              {/* Ward / Division in Warangal East */}
+              {/* Ward / Division in Warangal West */}
               <div className="form-group">
                 <label htmlFor="reg-wardNumber">
-                  Ward / Division (వరంగల్ తూర్పు వార్డు) <span className="req">*</span>
+                  Ward / Division (వరంగల్ పశ్చిమ వార్డు) <span className="req">*</span>
                 </label>
                 <div className="input-with-icon">
                   <MapPin size={18} className="input-icon" />
@@ -222,7 +222,7 @@ export default function RegistrationModal({ isOpen, onClose }) {
                   id="reg-colony"
                   name="colony"
                   className="regular-input"
-                  placeholder="e.g. Near Ram Mandir, Deshaipet"
+                  placeholder="e.g. Near Public Garden, Subedari / Balasamudram"
                   value={formData.colony}
                   onChange={handleChange}
                 />
@@ -252,7 +252,7 @@ export default function RegistrationModal({ isOpen, onClose }) {
             <div className="form-notice">
               <ShieldCheck size={16} className="shield-icon" />
               <span>
-                Your privacy is protected. Registered citizens will receive official Warangal East constituency announcements and community updates.
+                Your privacy is protected. Registered citizens will receive official Warangal West constituency announcements and community updates.
               </span>
             </div>
 
@@ -273,7 +273,7 @@ export default function RegistrationModal({ isOpen, onClose }) {
               <CheckCircle2 size={24} />
               <div>
                 <h4>Membership Registered Successfully!</h4>
-                <p>Welcome to BRS Warangal East Constituency Family.</p>
+                <p>Welcome to BRS Warangal West (వరంగల్ పశ్చిమ) Family.</p>
               </div>
             </div>
 
@@ -284,7 +284,7 @@ export default function RegistrationModal({ isOpen, onClose }) {
                   <img src={brsLogoImg} alt="BRS Logo" className="card-logo" />
                   <div>
                     <h5>BHARAT RASHTRA SAMITHI</h5>
-                    <span>WARANGAL EAST CONSTITUENCY</span>
+                    <span>WARANGAL WEST CONSTITUENCY</span>
                   </div>
                 </div>
                 <div className="card-symbol-badge">
@@ -315,7 +315,7 @@ export default function RegistrationModal({ isOpen, onClose }) {
                 <div className="card-status-stamp">
                   <div className="stamp-circle">
                     <span>VERIFIED</span>
-                    <small>WARANGAL EAST</small>
+                    <small>WARANGAL WEST</small>
                   </div>
                 </div>
               </div>

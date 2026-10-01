@@ -16,7 +16,7 @@ export default function Header({ onOpenRegister, onOpenDonate }) {
       teluguName: 'డి. వినయ్ భాస్కర్',
       title: 'Constituency Leader',
       image: vinayBhaskarImg,
-      alt: 'D. Vinay Bhaskar - BRS Warangal East'
+      alt: 'D. Vinay Bhaskar - BRS Warangal West'
     },
     {
       name: 'K. T. Rama Rao',
@@ -69,7 +69,7 @@ export default function Header({ onOpenRegister, onOpenDonate }) {
           
           {/* Left Side: BRS Party Warangal Banner & Logo */}
           <div className="header-brand-block">
-            <a href="#top" className="brand-identity-link" aria-label="BRS Party Warangal East Homepage">
+            <a href="#top" className="brand-identity-link" aria-label="BRS Party Warangal West Homepage">
               <img 
                 src={brsLogoImg} 
                 alt="BRS Official Logo" 
@@ -78,7 +78,7 @@ export default function Header({ onOpenRegister, onOpenDonate }) {
               />
               <img 
                 src={brsBannerImg} 
-                alt="Bharat Rashtra Samithi - Warangal East Banner" 
+                alt="Bharat Rashtra Samithi - Warangal West Banner" 
                 className="brand-banner-img"
                 loading="eager"
               />

@@ -190,3 +190,41 @@
   box-shadow: 0 4px 12px rgba(27, 94, 32, 0.35);
   transform: translateY(-1px);
 }
+
+/* Mobile Responsiveness for All Phones (320px - 600px) */
+@media (max-width: 600px) {
+  .join-donate-section {
+    padding: 36px 0;
+  }
+
+  .action-card {
+    padding: 18px 16px;
+  }
+
+  .action-card-icon-box {
+    width: 44px;
+    height: 44px;
+  }
+
+  .action-card-title {
+    font-size: 1.18rem;
+  }
+
+  .action-card-desc {
+    font-size: 0.86rem;
+  }
+
+  .action-btn {
+    padding: 11px 16px;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .action-card {
+    padding: 14px;
+  }
+  .action-card-title {
+    font-size: 1.08rem;
+  }
+}

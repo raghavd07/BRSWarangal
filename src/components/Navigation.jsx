@@ -68,7 +68,7 @@ export default function Navigation({ onOpenRegister, onOpenDonate }) {
     <nav className="main-navbar" ref={navRef} aria-label="Main Navigation">
       <div className="container nav-container">
         
-        {/* Mobile Hamburger Button */}
+        {/* Mobile Navigation Header: Hamburger Toggle + Quick Actions */}
         <div className="mobile-nav-toggle-wrapper">
           <button
             type="button"
@@ -78,9 +78,31 @@ export default function Navigation({ onOpenRegister, onOpenDonate }) {
             aria-controls="mobile-navigation-drawer"
             aria-label={mobileMenuOpen ? 'Close Navigation Menu' : 'Open Navigation Menu'}
           >
-            {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+            {mobileMenuOpen ? <X size={22} /> : <Menu size={22} />}
             <span className="mobile-menu-label">{mobileMenuOpen ? 'CLOSE' : 'MENU'}</span>
           </button>
+
+          {/* Quick Mobile Action Shortcuts (Join & Donate) */}
+          <div className="mobile-quick-actions">
+            <button
+              type="button"
+              className="quick-nav-btn quick-join-btn"
+              onClick={onOpenRegister}
+              aria-label="Join BRS Membership"
+            >
+              <UserPlus size={14} />
+              <span>Join BRS</span>
+            </button>
+            <button
+              type="button"
+              className="quick-nav-btn quick-donate-btn"
+              onClick={onOpenDonate}
+              aria-label="Donate to BRS Warangal West"
+            >
+              <Heart size={14} className="quick-heart-icon" />
+              <span>Donate</span>
+            </button>
+          </div>
         </div>
 
         {/* Desktop Navigation Links */}
@@ -185,7 +207,7 @@ export default function Navigation({ onOpenRegister, onOpenDonate }) {
             onClick={onOpenDonate}
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            aria-label="Contribute or Donate to BRS Warangal East"
+            aria-label="Contribute or Donate to BRS Warangal West"
           >
             <Heart size={14} className="nav-heart-icon" />
             <span>Donate</span>
@@ -316,7 +338,7 @@ export default function Navigation({ onOpenRegister, onOpenDonate }) {
 
               {/* Mobile Social Strip */}
               <div className="mobile-social-section">
-                <span className="mobile-social-title">Connect with BRS Warangal East</span>
+                <span className="mobile-social-title">Connect with BRS Warangal West</span>
                 <div className="mobile-social-icons">
                   {socialLinks.map((social) => (
                     <a

@@ -29,7 +29,7 @@ export default function NewsSection() {
           <h2 className="section-title">Latest News & Announcements</h2>
           <p className="section-subtitle-telugu">తాజా వార్తలు మరియు నియోజకవర్గ సమాచారం</p>
           <p className="section-description">
-            Official press communications, municipal infrastructure reviews, and citizen welfare advisories from BRS Warangal East.
+            Official press communications, municipal infrastructure reviews, and citizen welfare advisories from BRS Warangal West (వరంగల్ పశ్చిమ నియోజకవర్గం).
           </p>
           <div className="section-divider" />
         </div>
@@ -140,7 +140,12 @@ export default function NewsSection() {
                 <div className="article-modal-top">
                   <div className="article-modal-badges">
                     <span className="badge-primary">{selectedArticle.category}</span>
-                    <span className="sample-badge">Sample Demo Content</span>
+                    {selectedArticle.badge && (
+                      <span className="badge-secondary">{selectedArticle.badge}</span>
+                    )}
+                    {selectedArticle.isSample && (
+                      <span className="sample-badge">Sample Demo Content</span>
+                    )}
                   </div>
                   <button
                     type="button"
@@ -153,6 +158,21 @@ export default function NewsSection() {
                 </div>
 
                 <div className="article-modal-scroll-body">
+                  {selectedArticle.image && (
+                    <div className="article-modal-img-wrap">
+                      <img
+                        src={selectedArticle.image}
+                        alt={selectedArticle.imageAlt || selectedArticle.title}
+                        className="article-modal-img"
+                      />
+                      {selectedArticle.imageAlt && (
+                        <p className="article-modal-img-caption">
+                          📷 {selectedArticle.imageAlt}
+                        </p>
+                      )}
+                    </div>
+                  )}
+
                   <div className="article-modal-meta">
                     <span className="meta-item">
                       <Calendar size={14} aria-hidden="true" />

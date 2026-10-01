@@ -17,7 +17,7 @@ export default function DonationModal({ isOpen, onClose }) {
     mobileNumber: '',
     panNumber: '',
     email: '',
-    ward: 'Warangal East (General Fund)'
+    ward: 'Warangal West (General Fund)'
   });
   const [receiptNumber, setReceiptNumber] = useState('');
 
@@ -58,7 +58,7 @@ export default function DonationModal({ isOpen, onClose }) {
       mobileNumber: '',
       panNumber: '',
       email: '',
-      ward: 'Warangal East (General Fund)'
+      ward: 'Warangal West (General Fund)'
     });
     setCustomAmount('');
     setSelectedAmount(1000);
@@ -83,7 +83,7 @@ export default function DonationModal({ isOpen, onClose }) {
             </div>
             <div>
               <span className="donation-telugu-tag">ప్రజా నిధి & విరాళాలు</span>
-              <h2 className="donation-title">Contribute to BRS Warangal East</h2>
+              <h2 className="donation-title">Contribute to BRS Warangal West</h2>
             </div>
           </div>
           <button 
@@ -165,7 +165,7 @@ export default function DonationModal({ isOpen, onClose }) {
                 <div className="upi-preview-box">
                   <div className="qr-dummy-code">
                     <QrCode size={64} className="qr-icon" />
-                    <span className="qr-vpa">brswarangaleast@upi</span>
+                    <span className="qr-vpa">brswarangalwest@upi</span>
                   </div>
                   <div className="upi-app-badges">
                     <span className="app-badge">Google Pay</span>
@@ -269,7 +269,7 @@ export default function DonationModal({ isOpen, onClose }) {
               <CheckCircle2 size={24} />
               <div>
                 <h4>Donation Received with Gratitude!</h4>
-                <p>Your contribution directly powers public service in Warangal East.</p>
+                <p>Your contribution directly powers public service in Warangal West.</p>
               </div>
             </div>
 
@@ -280,7 +280,7 @@ export default function DonationModal({ isOpen, onClose }) {
                   <img src={brsLogoImg} alt="BRS Logo" className="receipt-logo" />
                   <div>
                     <h5>BHARAT RASHTRA SAMITHI</h5>
-                    <span>WARANGAL EAST CONSTITUENCY FUND</span>
+                    <span>WARANGAL WEST CONSTITUENCY FUND</span>
                   </div>
                 </div>
                 <div className="receipt-tag-col">

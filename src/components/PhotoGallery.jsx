@@ -41,7 +41,7 @@ export default function PhotoGallery() {
           <h2 className="section-title">Recent Photos</h2>
           <p className="section-subtitle-telugu">నియోజకవర్గ చిత్రమాలిక & జ్ఞాపకాలు</p>
           <p className="section-description">
-            Glimpses of historic monuments, cultural heritage, public welfare drives, and constituency engagements in Warangal East.
+            Glimpses of historic monuments, cultural heritage, public welfare drives, and constituency engagements in Warangal West (వరంగల్ పశ్చిమ నియోజకవర్గం).
           </p>
           <div className="section-divider" />
         </div>

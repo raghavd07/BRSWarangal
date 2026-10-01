@@ -470,3 +470,104 @@
   gap: 10px;
   flex-wrap: wrap;
 }
+
+/* Mobile Responsiveness for All Phones (320px - 600px) */
+@media (max-width: 600px) {
+  .donation-modal-backdrop {
+    padding: 10px;
+  }
+
+  .donation-modal-card {
+    max-height: 94vh;
+  }
+
+  .donation-modal-header {
+    padding: 14px 16px;
+  }
+
+  .donation-icon-badge {
+    width: 40px;
+    height: 40px;
+  }
+
+  .donation-title {
+    font-size: 1.1rem;
+  }
+
+  .donation-form {
+    padding: 16px;
+    gap: 14px;
+  }
+
+  .amount-pills-row {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6px;
+  }
+
+  .amount-pill {
+    font-size: 0.88rem;
+    padding: 9px 4px;
+  }
+
+  .pay-methods-tabs {
+    gap: 6px;
+  }
+
+  .pay-tab {
+    padding: 8px 6px;
+    font-size: 0.78rem;
+  }
+
+  .donor-fields-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .donation-actions-row {
+    flex-direction: column-reverse;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .donation-actions-row button {
+    width: 100%;
+    justify-content: center;
+    padding: 12px;
+  }
+
+  .official-receipt {
+    padding: 16px 14px;
+  }
+
+  .receipt-header {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .receipt-tag-col {
+    text-align: left;
+    width: 100%;
+  }
+
+  .receipt-actions {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .receipt-actions button {
+    width: 100%;
+    justify-content: center;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 360px) {
+  .donation-modal-header {
+    padding: 12px;
+  }
+  .donation-form {
+    padding: 12px;
+  }
+  .pay-methods-tabs {
+    grid-template-columns: 1fr;
+  }
+}

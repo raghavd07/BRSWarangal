@@ -20,7 +20,7 @@ export default function LeadershipSection() {
           <h2 className="section-title">Constituency & Party Leadership</h2>
           <p className="section-subtitle-telugu">నియోజకవర్గ మరియు పార్టీ నాయకత్వం</p>
           <p className="section-description">
-            Guided by visionary leaders championing the statehood of Telangana and spearheading dedicated civic governance for the citizens of Warangal East.
+            Guided by visionary leaders championing the statehood of Telangana and spearheading dedicated civic governance for the citizens of Warangal West (వరంగల్ పశ్చిమ నియోజకవర్గం).
           </p>
           <div className="section-divider" />
         </div>

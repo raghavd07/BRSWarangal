@@ -32,7 +32,7 @@ export default function JoinDonateSection({ onOpenRegister, onOpenDonate }) {
 
             <div className="action-card-body">
               <span className="action-card-telugu">పార్టీ సభ్యత్వ నమోదు</span>
-              <h3 className="action-card-title">Join BRS Warangal East</h3>
+              <h3 className="action-card-title">Join BRS Warangal West</h3>
               <p className="action-card-desc">
                 Become a registered party member or active constituency volunteer. Engage directly in ward development reviews, community welfare drives, and citizen advocacy.
               </p>
@@ -85,7 +85,7 @@ export default function JoinDonateSection({ onOpenRegister, onOpenDonate }) {
               <span className="action-card-telugu">ప్రజా నిధికి విరాళం</span>
               <h3 className="action-card-title">Support Our Constituency Mission</h3>
               <p className="action-card-desc">
-                Empower grassroots civic assistance desks, health camps, student workshops, and clean water monitoring across Warangal East with clean, transparent citizen funding.
+                Empower grassroots civic assistance desks, health camps, student workshops, and clean water monitoring across Warangal West with clean, transparent citizen funding.
               </p>
 
               <ul className="action-perks-list">

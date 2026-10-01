@@ -9,7 +9,7 @@ export const navLinks = [
     href: '#about',
     hasDropdown: true,
     sublinks: [
-      { name: 'Warangal East Overview', href: '#about', desc: 'Geography, demographics & heritage' },
+      { name: 'Warangal West Overview', href: '#about', desc: 'Geography, demographics & heritage' },
       { name: 'Constituency Leadership', href: '#leadership', desc: 'Profiles of constituency leaders' },
       { name: 'Historical Heritage', href: '#about', desc: 'Kakatiya dynasty roots and significance' }
     ]
@@ -45,7 +45,7 @@ export const navLinks = [
     hasDropdown: true,
     sublinks: [
       { name: 'BRS Party Manifesto', href: '#manifesto', desc: 'Core policies & public commitments' },
-      { name: 'Warangal East Development Vision', href: '#manifesto', desc: 'Strategic local infrastructure plan' },
+      { name: 'Warangal West Development Vision', href: '#manifesto', desc: 'Strategic local infrastructure plan' },
       { name: 'Annual Welfare Report', href: '#manifesto', desc: 'Progress and achievement summaries' }
     ]
   },

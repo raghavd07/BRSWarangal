@@ -13,18 +13,31 @@ export default function NewsCard({ article, onReadMore }) {
       whileHover={{ y: -5 }}
       transition={{ duration: 0.2 }}
     >
-      {/* Visual Thumbnail / Neutral Themed Placeholder */}
+      {/* Visual Thumbnail: Real Photo or Themed Pattern */}
       <div className="news-card-thumbnail">
-        <div className="news-thumbnail-pattern">
-          <div className="thumbnail-icon-circle">
-            <FileText size={28} />
+        {article.image ? (
+          <>
+            <img 
+              src={article.image} 
+              alt={article.imageAlt || article.title} 
+              className="news-card-img" 
+              loading="lazy" 
+            />
+            <div className="news-card-img-overlay" />
+            <span className="thumbnail-category-pill floating-cat-pill">{article.category}</span>
+          </>
+        ) : (
+          <div className="news-thumbnail-pattern">
+            <div className="thumbnail-icon-circle">
+              <FileText size={28} />
+            </div>
+            <span className="thumbnail-category-pill">{article.category}</span>
           </div>
-          <span className="thumbnail-category-pill">{article.category}</span>
-        </div>
+        )}
         
-        {/* Sample Demonstration Content Indicator */}
-        <div className="news-sample-tag" title="Demonstration content for UI review">
-          <span>SAMPLE</span>
+        {/* Badge Indicator */}
+        <div className={`news-sample-tag ${article.isSample ? 'sample' : 'official'}`}>
+          <span>{article.badge || (article.isSample ? 'SAMPLE' : 'OFFICIAL')}</span>
         </div>
       </div>
 

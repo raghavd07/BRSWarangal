@@ -465,3 +465,88 @@
   display: flex;
   justify-content: flex-end;
 }
+
+/* Mobile Responsiveness for All Phones (320px - 600px) */
+@media (max-width: 600px) {
+  .election-alert-banner {
+    padding: 16px 14px;
+    gap: 14px;
+  }
+
+  .election-alert-left {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .election-icon-circle {
+    width: 42px;
+    height: 42px;
+  }
+
+  .alert-heading {
+    font-size: 1.1rem;
+  }
+
+  .alert-desc {
+    font-size: 0.84rem;
+  }
+
+  .event-card {
+    padding: 16px 14px;
+  }
+
+  .event-card-header {
+    gap: 12px;
+  }
+
+  .date-badge {
+    width: 52px;
+    height: 56px;
+  }
+
+  .date-day {
+    font-size: 1.25rem;
+  }
+
+  .date-month {
+    font-size: 0.62rem;
+  }
+
+  .event-title {
+    font-size: 1.02rem;
+  }
+
+  .event-modal-backdrop {
+    padding: 10px;
+  }
+
+  .event-modal-card {
+    max-height: 94vh;
+  }
+
+  .event-modal-body {
+    padding: 16px 14px;
+  }
+
+  .event-modal-footer {
+    padding: 12px 16px;
+  }
+
+  .event-modal-footer button {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 360px) {
+  .election-alert-banner {
+    padding: 12px;
+  }
+  .event-card {
+    padding: 12px;
+  }
+  .event-card-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

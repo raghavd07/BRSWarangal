@@ -57,11 +57,11 @@ export default function Footer() {
             </div>
             
             <p className="footer-brand-telugu">
-              భారత్ రాష్ట్ర సమితి - వరంగల్ తూర్పు నియోజకవర్గం
+              భారత్ రాష్ట్ర సమితి - వరంగల్ పశ్చిమ నియోజకవర్గం
             </p>
 
             <p className="footer-brand-text">
-              Official portal of Bharat Rashtra Samithi (BRS) – Warangal East Constituency. Dedicated to transparent civic representation, grassroots public welfare, and comprehensive municipal modernization.
+              Official portal of Bharat Rashtra Samithi (BRS) – Warangal West Constituency (వరంగల్ పశ్చిమ నియోజకవర్గం). Dedicated to transparent civic representation, grassroots public welfare, and comprehensive municipal modernization.
             </p>
 
             {/* Social Media Link Bar */}
@@ -99,7 +99,7 @@ export default function Footer() {
               <li>
                 <a href="#about" className="footer-link">
                   <ChevronRight size={14} aria-hidden="true" />
-                  <span>About Warangal East</span>
+                  <span>About Warangal West</span>
                 </a>
               </li>
               <li>
@@ -218,7 +218,7 @@ export default function Footer() {
                 <MapPin size={16} className="contact-icon" aria-hidden="true" />
                 <div>
                   <strong>Central Office:</strong>
-                  <p>BRS Warangal East Constituency Central Office [Placeholder Address], Warangal, Telangana – 506002</p>
+                  <p>BRS Warangal West Constituency Central Office, Hanamkonda, Warangal, Telangana – 506001</p>
                 </div>
               </div>
 
@@ -234,7 +234,7 @@ export default function Footer() {
                 <Mail size={16} className="contact-icon" aria-hidden="true" />
                 <div>
                   <strong>Email (Placeholder):</strong>
-                  <p>office@brswarangaleast.org</p>
+                  <p>office@brswarangalwest.org</p>
                 </div>
               </div>
 
@@ -260,7 +260,7 @@ export default function Footer() {
         <div className="container footer-bottom-container">
           
           <div className="footer-copyright-text">
-            <span>© 2026 Bharat Rashtra Samithi (BRS) – Warangal East Constituency. All rights reserved.</span>
+            <span>© 2026 Bharat Rashtra Samithi (BRS) – Warangal West Constituency (వరంగల్ పశ్చిమ నియోజకవర్గం). All rights reserved.</span>
           </div>
 
           <div className="footer-legal-links">
@@ -328,7 +328,7 @@ export default function Footer() {
                   {activeModal === 'terms' && 'Terms of Use'}
                   {activeModal === 'disclaimer' && 'Constituency Portal Disclaimer'}
                   {activeModal === 'grievance' && 'Citizen Grievance Redressal'}
-                  {activeModal === 'manifesto' && 'Warangal East Development Vision'}
+                  {activeModal === 'manifesto' && 'Warangal West Development Vision'}
                   {activeModal === 'voter' && 'Voter Registration Information'}
                   {activeModal === 'downloads' && 'Official Forms & Downloads'}
                   {activeModal === 'membership' && 'Cadre Registration Desk'}
@@ -346,19 +346,19 @@ export default function Footer() {
               <div className="modal-body">
                 {activeModal === 'privacy' && (
                   <div>
-                    <p>This privacy notice applies to the BRS Warangal East Constituency homepage prototype. We respect citizen privacy. No personal identification data or cookie tracking is gathered or shared without explicit user submission during the demonstration phase.</p>
+                    <p>This privacy notice applies to the BRS Warangal West Constituency homepage prototype. We respect citizen privacy. No personal identification data or cookie tracking is gathered or shared without explicit user submission during the demonstration phase.</p>
                   </div>
                 )}
 
                 {activeModal === 'terms' && (
                   <div>
-                    <p>The materials, leadership photographs, and developmental information presented on this website are compiled solely for official informational purposes representing BRS Warangal East Constituency.</p>
+                    <p>The materials, leadership photographs, and developmental information presented on this website are compiled solely for official informational purposes representing BRS Warangal West Constituency.</p>
                   </div>
                 )}
 
                 {activeModal === 'disclaimer' && (
                   <div>
-                    <p>This prototype demonstrates the visual identity, structure, and responsive layout for the Warangal East Constituency website. Unofficial or sample notices are clearly indicated with demonstration badges.</p>
+                    <p>This prototype demonstrates the visual identity, structure, and responsive layout for the Warangal West Constituency website. Unofficial or sample notices are clearly indicated with demonstration badges.</p>
                   </div>
                 )}
 

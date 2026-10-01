@@ -19,7 +19,7 @@ export default function ConstituencyOverview() {
   };
 
   return (
-    <section className="section-wrapper bg-white" id="about" aria-label="About Warangal East Constituency">
+    <section className="section-wrapper bg-white" id="about" aria-label="About Warangal West Constituency (వరంగల్ పశ్చిమ నియోజకవర్గం)">
       <div className="container">
         
         {/* Section Header */}

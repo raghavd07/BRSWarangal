@@ -392,3 +392,60 @@
   display: flex;
   justify-content: flex-end;
 }
+
+/* Mobile Responsiveness for All Phones (320px - 600px) */
+@media (max-width: 600px) {
+  .leadership-portrait-container {
+    padding: 18px 14px 10px 14px;
+  }
+
+  .leadership-portrait-circle {
+    width: 96px;
+    height: 96px;
+  }
+
+  .primary-emphasis-card .leadership-portrait-circle {
+    width: 104px;
+    height: 104px;
+  }
+
+  .leader-full-name {
+    font-size: 1.15rem;
+  }
+
+  .leader-telugu-name {
+    font-size: 0.82rem;
+    margin-bottom: 8px;
+  }
+
+  .leadership-card-content {
+    padding: 14px 16px 20px 16px;
+  }
+
+  .leader-modal-backdrop {
+    padding: 10px;
+  }
+
+  .leader-modal-card {
+    max-height: 94vh;
+  }
+
+  .leader-modal-body {
+    padding: 16px;
+  }
+
+  .leader-modal-footer {
+    padding: 12px 16px;
+  }
+
+  .leader-modal-footer button {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 360px) {
+  .leadership-card-content {
+    padding: 12px;
+  }
+}

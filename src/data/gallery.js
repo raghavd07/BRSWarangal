@@ -33,27 +33,27 @@ export const photoGallery = [
     date: 'Constituency Visit',
     image: vinayBhaskarImg,
     isSupplied: true,
-    caption: 'D. Vinay Bhaskar actively engaging with residents and ward leaders during a constituency grievance review.'
+    caption: 'D. Vinay Bhaskar actively engaging with residents and ward leaders during a constituency grievance review in Warangal West.'
   },
   {
     id: 'photo-4',
-    title: 'Student & Youth Interaction with D. Vinay Bhaskar',
-    teluguTitle: 'విద్యార్థులు & యువతతో సమావేశం',
+    title: 'D. Vinay Bhaskar Seated with Students in Discussion',
+    teluguTitle: 'విద్యార్థులతో ముఖాముఖి సమావేశమైన దాస్యం వినయ్ భాస్కర్',
     category: 'Youth & Education',
-    date: 'Constituency Program',
+    date: 'Youth Interaction',
     image: vinayBhaskarStudentsImg,
     isSupplied: true,
-    caption: 'D. Vinay Bhaskar interacting with vibrant local students across Warangal East, discussing educational welfare, scholarships, and skill development.'
+    caption: 'D. Vinay Bhaskar seated alongside vibrant college students in Warangal West, engaging in an open dialogue on educational welfare, scholarships, mentorship, and career aspirations.'
   },
   {
     id: 'photo-5',
-    title: 'Gandhi Jayanti Commemoration Observance',
-    teluguTitle: 'గాంధీ జయంతి వేడుకలు - వరంగల్ తూర్పు',
+    title: 'Gandhi Jayanti at Public Garden, Hanamkonda',
+    teluguTitle: 'హనుమకొండ పబ్లిక్ గార్డెన్‌లో గాంధీ జయంతి - వరంగల్ పశ్చిమ',
     category: 'Public Observance',
     date: 'October 02',
     image: gandhiJayantiImg,
     isSupplied: true,
-    caption: 'Floral tributes offered on the occasion of Gandhi Jayanti in Warangal East, reiterating the ideals of peace, truth, and community harmony.'
+    caption: 'D. Vinay Bhaskar offering floral tributes to the idol of Mahatma Gandhi in the Public Garden, Hanamkonda on the occasion of Gandhi Jayanti, upholding the ideals of peace, truth, and community harmony across Warangal West (వరంగల్ పశ్చిమ నియోజకవర్గం).'
   },
   {
     id: 'photo-6',
@@ -64,6 +64,6 @@ export const photoGallery = [
     image: null,
     placeholderLabel: 'Cadre Orientation Meet',
     isSupplied: false,
-    caption: 'Demonstration placeholder: Warangal East division coordinators assembly commemorating party foundation day.'
+    caption: 'Demonstration placeholder: Warangal West division coordinators assembly commemorating party foundation day.'
   }
 ];

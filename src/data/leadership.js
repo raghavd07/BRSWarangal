@@ -8,17 +8,17 @@ export const leadershipData = [
     name: 'D. Vinay Bhaskar',
     teluguName: 'దాస్యం వినయ్ భాస్కర్',
     role: 'Constituency Leader & Former MLA',
-    designation: 'Former Government Chief Whip & MLA, Warangal',
-    constituency: 'Warangal East Constituency',
+    designation: 'Former Government Chief Whip & MLA, Warangal West',
+    constituency: 'Warangal West Constituency (వరంగల్ పశ్చిమ నియోజకవర్గం)',
     image: vinayBhaskarImg,
     isPrimary: true,
-    tagline: 'Committed to the grassroots development and citizen welfare of Warangal East.',
-    bio: 'A seasoned public servant dedicated to advancing urban infrastructure, public amenities, healthcare access, and youth opportunities across all wards of Warangal East.',
+    tagline: 'Committed to the grassroots development and citizen welfare of Warangal West.',
+    bio: 'A seasoned public servant dedicated to advancing urban infrastructure, public amenities, healthcare access, and youth opportunities across all wards of Warangal West (వరంగల్ పశ్చిమ నియోజకవర్గం).',
     initiatives: [
       'Constituency Grievance Redressal Program',
       'Urban Road & Drainage Modernization',
-      'Community Halls & Sports Facilities',
-      'Youth & Women Skill Development Programs'
+      'Student Welfare & Youth Guidance Desks',
+      'Community Halls & Sports Facilities'
     ],
     badge: 'Constituency Leadership'
   },

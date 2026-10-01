@@ -1,6 +1,6 @@
-# Bharat Rashtra Samithi (BRS) – Warangal East Constituency Official Website
+# Bharat Rashtra Samithi (BRS) – Warangal West Constituency Official Website
 
-A modern, responsive, high-performance React homepage built for **Bharat Rashtra Samithi (BRS) – Warangal East Constituency, Telangana, India**.
+A modern, responsive, high-performance React homepage built for **Bharat Rashtra Samithi (BRS) – Warangal West Constituency (వరంగల్ పశ్చిమ నియోజకవర్గం), Telangana, India**.
 
 ---
 
@@ -26,17 +26,17 @@ A modern, responsive, high-performance React homepage built for **Bharat Rashtra
    - **Mobile Menu:** Accessible hamburger menu toggle with animated slide-down drawer.
 
 2. **Hero Activities Carousel:**
-   - Full-width hero banner (420–550px) featuring the **Amaraveerula Stupam** tribute slide, **Telangana Thalli** cultural legacy slide, and Warangal East development slides.
+   - Full-width hero banner (420–550px) featuring the **Amaraveerula Stupam** tribute slide, **Telangana Thalli** cultural legacy slide, and Warangal West development slides.
    - Automatic rotation (5.5s), pause-on-hover, touch swipe navigation, keyboard arrow support, and respect for `prefers-reduced-motion` via `motion/react`.
 
 3. **Media Category Strip:**
    - Horizontally arranged category cards: **NEWS** (magenta icon) | **PHOTOS** (charcoal icon) | **VIDEOS** (charcoal icon) that smoothly scroll to their respective sections.
 
 4. **Latest News & Announcements:**
-   - Responsive 3-column card grid with sample civic development updates, dates, reading times, tags, and interactive **Read Full Announcement** modal.
+   - Responsive 3-column card grid with authentic event reports, dates, reading times, tags, and interactive **Read Full Announcement** modal.
 
 5. **Recent Photos Gallery:**
-   - 6-tile responsive photo grid featuring supplied photos (Amaraveerula Stupam, Telangana Thalli, D. Vinay Bhaskar) and labelled event placeholders.
+   - 6-tile responsive photo grid featuring supplied photos (Amaraveerula Stupam, Telangana Thalli, D. Vinay Bhaskar, Vinay Bhaskar with students, Gandhi Jayanti at Public Garden Hanamkonda).
    - Interactive Lightbox with prev/next navigation and captions.
 
 6. **Recent Videos Preview:**
@@ -49,9 +49,9 @@ A modern, responsive, high-performance React homepage built for **Bharat Rashtra
      3. **K. Chandrashekar Rao (KCR)** (Founder & President, BRS Party)
    - Profile modal displaying verified designations, public service pillars, and focus areas.
 
-8. **About Warangal East Constituency:**
+8. **About Warangal West Constituency:**
    - Introductory civic paragraph and 3 compact information blocks:
-     - **Constituency Information** (Fort Warangal, GWMC, key sectors)
+     - **Constituency Information** (Public Garden Hanamkonda, Kakatiya University, NIT Warangal, GWMC)
      - **Public Announcements** (Grievance schedules, civic advisories)
      - **Office & Contact Information** (Central Office placeholders & grievance hours)
 

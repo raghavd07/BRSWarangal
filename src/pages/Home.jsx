@@ -45,7 +45,7 @@ export default function Home() {
         {/* Section 6: Constituency Leadership (D. Vinay Bhaskar, KTR, KCR) */}
         <LeadershipSection />
 
-        {/* Section 7: About Warangal East Constituency */}
+        {/* Section 7: About Warangal West Constituency */}
         <ConstituencyOverview />
 
         {/* Section 8: Citizen Action & Support (Register Membership & Online Contribution) */}

@@ -43,7 +43,7 @@
     <!-- Constituency Subtitle with accent line -->
     <g transform="translate(0, 43)">
       <rect x="0" y="1" width="14" height="2.5" rx="1" fill="#31552D"/>
-      <text x="20" y="5.5" font-family="'Inter', sans-serif" font-size="10.5" font-weight="700" fill="#EC2588" letter-spacing="1.2">WARANGAL EAST CONSTITUENCY</text>
+      <text x="20" y="5.5" font-family="'Inter', sans-serif" font-size="10.5" font-weight="700" fill="#EC2588" letter-spacing="1.2">WARANGAL WEST CONSTITUENCY</text>
     </g>
   </g>
 </svg>

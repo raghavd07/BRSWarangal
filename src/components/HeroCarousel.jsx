@@ -205,7 +205,7 @@ export default function HeroCarousel() {
                     <ArrowRight size={16} aria-hidden="true" />
                   </a>
                   <a href="#about" className="btn btn-outline-white slide-btn-outline">
-                    Warangal East Info
+                    Warangal West Info
                   </a>
                 </div>
 

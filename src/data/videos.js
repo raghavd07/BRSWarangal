@@ -1,15 +1,15 @@
 export const recentVideos = [
   {
     id: 'vid-1',
-    title: 'Keynote Address on Warangal East Urban Transformation & Civic Modernization',
-    teluguTitle: 'వరంగల్ తూర్పు పట్టణ అభివృద్ధి ప్రణాళికపై ప్రసంగం',
+    title: 'Keynote Address on Warangal West Urban Transformation & Civic Modernization',
+    teluguTitle: 'వరంగల్ పశ్చిమ పట్టణ అభివృద్ధి ప్రణాళికపై ప్రసంగం',
     category: 'Development Discourse',
     date: 'September 22, 2026',
     duration: '14:20',
     speaker: 'D. Vinay Bhaskar',
     placeholderTheme: 'urban',
     isPlaceholder: true,
-    summary: 'Detailed presentation highlighting planned road widening, drainage modernization, and civic infrastructure milestones for Warangal East.',
+    summary: 'Detailed presentation highlighting planned road widening, drainage modernization, and civic infrastructure milestones for Warangal West (వరంగల్ పశ్చిమ నియోజకవర్గం).',
     embedNote: 'Official video recording will be linked here upon media release.'
   },
   {
